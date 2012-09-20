@@ -837,6 +837,9 @@
     <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default conversation list. [CHAR LIMIT=35] -->
     <string name="view_more_conversations">View more conversations</string>
 
+    <string name="label_mms_push">MMS Push(MAP)</string>
+    <string name="desc_mms_push">Pushes MMS from outbox to the network</string>
+
     <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
     <string name="attachment_audio">Audio</string>
     <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
