@@ -346,7 +346,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
 
     public static boolean getGroupMMSEnabled(Context context) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        boolean groupMMSEnabled = prefs.getBoolean(MessagingPreferenceActivity.GROUP_MMS_ENABLED, true);
+        boolean groupMMSEnabled = prefs.getBoolean(MessagingPreferenceActivity.GROUP_MMS_ENABLED, false);
         return groupMMSEnabled;
     }
 
